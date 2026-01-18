@@ -1,5 +1,5 @@
+import { Menu, X } from 'lucide-react';
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, Menu, X } from 'lucide-react';
 
 const Homepage: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
