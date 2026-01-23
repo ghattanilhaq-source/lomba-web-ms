@@ -149,7 +149,7 @@ const Homepage: React.FC = () => {
                 <img src="/line-hero.svg" alt="" />
               </div>
               <div>
-                <p className="text-base md:text-xl md:mb-5 text-white">
+                <p className="text-base md:text-lg text-white leading-snug md:leading-normal max-w-xs md:max-w-sm">
                   Metland School is a vocational education that is officially 
                   recognized by the government with international standards to prepare 
                   students for a successful career future.
