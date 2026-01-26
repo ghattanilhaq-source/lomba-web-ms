@@ -18,13 +18,13 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="hero-content relative z-10">
-        <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full max-w-7xl mx-auto relative z-20">
           <div className="max-w-2xl mb-12 lg:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm font-medium mb-6 border border-white/20 relative z-20"
+              className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm font-medium mb-6 border border-white/20"
             >
               SMK Metland School — Vocational Excellence
             </motion.span>
