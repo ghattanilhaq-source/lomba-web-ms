@@ -97,9 +97,7 @@ const ProgramTabs = () => {
           >
             {/* Description with Logo */}
             <div className="flex items-start gap-4 max-w-3xl">
-              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md flex-shrink-0">
-                <img src={logo} alt="logo" className="w-12 h-12" />
-              </div>
+              <img src={logo} alt="logo" className="w-12 h-12" />
               <p className="text-muted-foreground leading-relaxed text-base md:text-lg pt-2">
                 {tabData[activeTab].description}
               </p>
