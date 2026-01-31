@@ -1,6 +1,7 @@
 import ScrollReveal from '@/components/ScrollReveal';
 import { Link } from 'react-router-dom';
 import logoMetland from '@/assets/logo-metland.png';
+import Culinarypartner from '@/assets/culinary-scene.jpg';
 
 // Placeholder logos - in a real app these would be imported images
 // Using Metland logo multple times to simulate the slider effect + text logos
@@ -129,7 +130,7 @@ const PartnersSection = () => {
               
               {/* Main Image */}
               <img 
-                src="https://images.unsplash.com/photo-1577412647305-991150c7d163?q=80&w=2070&auto=format&fit=crop" 
+                src={Culinarypartner} 
                 alt="Student Achievement" 
                 className="w-full h-auto rounded-lg shadow-xl"
               />
