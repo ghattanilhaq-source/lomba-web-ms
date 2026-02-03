@@ -35,7 +35,7 @@ const valuesData = [
 const timelineYears = ['1945', '1980', '2000', '2020', '2026'];
 const timelineContent = {
   '1945': {
-    heads: [ 'Darmawan Sunarja : 1945 - 2026', 'Veria Raja Tunggal : 1945 - 202' ],
+    heads: [ 'Tatang sunarja : 1945 - 2026', 'Veria Raja Tunggal : 1945 - 202' ],
     beginning: "Metland School was established with a strong commitment to providing quality vocational education that balances academic learning, practical skills, and character development. From the very beginning, the school was designed to prepare students for real-world challenges and professional environments.",
     growing: "As the demand for skilled and industry-ready graduates increased, Metland School continued to develop its academic programs, facilities, and learning approach. With a focus on tourism, hospitality, and vocational excellence, the school strengthened its curriculum to align with industry standards."
   },
