@@ -37,7 +37,7 @@ const timelineContent = {
   '1945': {
     heads: [ 'Tatang sunarja : 1945 - 2026', 'Veria Raja Tunggal : 1945 - 202' ],
     beginning: "Metland School was established with a strong commitment to providing quality vocational education that balances academic learning, practical skills, and character development. From the very beginning, the school was designed to prepare students for real-world challenges and professional environments.",
-    growing: "As the demand for skilled and industry-ready graduates increased, Metland School continued to develop its academic programs, facilities, and learning approach. With a focus on tourism, hospitality, and vocational excellence, the school strengthened its curriculum to align with industry standards."
+    growing: "As the demand for skilled and industry-ready graduates continued to increase, Metland School consistently developed and refined its academic programs, facilities, and learning approach. With a strong focus on tourism, hospitality, and vocational excellence, the school enhanced its curriculum to align with current industry standards, technological advancements, and real-world professional needs. This commitment ensures that students are not only academically prepared, but also equipped with practical skills, strong character, and adaptability to succeed in a rapidly evolving global workforce."
   },
   // Placeholder content for other years as specific text wasn't provided for them
   '1980': { heads: ['Next Generation : 1980 - 2000'], beginning: 'Expansion era...', growing: 'New facilities added...' },
@@ -185,13 +185,26 @@ const About = () => {
                </div>
 
                {/* Right Image */}
-               <div className="relative h-full min-h-[600px] rounded-t-full overflow-hidden bg-gray-100 border-[10px] border-white shadow-2xl">
-                  <img 
-                    src={timelineImage} 
-                    alt="Timeline Celebration" 
-                    className="w-full h-full object-cover"
-                  />
-               </div>
+               {/* Right Image - 2 foto bersebelahan */}
+<div className="flex gap-2 h-full min-h-[600px]">
+  {/* Foto 1 */}
+  <div className="relative w-80 rounded-t-full overflow-hidden bg-gray-100">
+    <img 
+      src={'https://smkmetland.net/ppdb/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-05-at-3.31.26-PM.jpeg'} 
+      alt="Timeline 1" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  {/* Foto 2 */}
+  <div className="relative w-80 rounded-t-full overflow-hidden bg-gray-100">
+    <img 
+      src={'https://smkmetland.net/ppdb/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-01-at-12.02.15-1.jpeg'} 
+      alt="Timeline 2" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
             </div>
           </ScrollReveal>
         </div>
